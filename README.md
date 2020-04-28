@@ -1,0 +1,1 @@
+configure and run ./step1.sh which automates steps 1-4. 
