@@ -15,11 +15,11 @@ spec:
         - name: aqua-registry
       containers:
       - name: aqua-db
-        image: registry.aquasec.com/database:4.6
+        image: registry.aquasec.com/database:5.0.20181
         securityContext:
           privileged: true
         env:
-          - name: postgres-password
+          - name: POSTGRES_PASSWORD
             valueFrom:
               secretKeyRef:
                 key: password

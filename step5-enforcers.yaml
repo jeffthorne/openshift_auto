@@ -20,7 +20,7 @@ spec:
         - name: aqua-registry
       containers:
       - name: aqua-agent
-        image: registry.aquasec.com/enforcer:4.6.20042
+        image: registry.aquasec.com/enforcer:5.0.20181
         securityContext:
           privileged: true
         env:
