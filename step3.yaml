@@ -15,7 +15,7 @@ spec:
         - name: aqua-registry
       containers:
       - name: aqua-db
-        image: registry.aquasec.com/database:5.0.20181
+        image: registry.aquasec.com/database:5.0.20274
         securityContext:
           privileged: true
         env:
